@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Add new company</title>
+
+    <!-- Material Design Icons -->
+    <link rel="stylesheet" href="assets/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="assets/css/bootstrap-material-design.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-fixed-top">
+
+	    <div class="container">
+
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="index.html">IDSTL</a>
+	        </div>
+
+	        <div id="navbar" class="navbar-collapse collapse">
+
+		        <ul class="nav navbar-nav navbar-right index-nav">
+		            <li><a href="index.html">Home</a></li>
+                <li><a href="">Logout</a></li>
+		        </ul>
+
+	        </div><!-- /.nav-collapse -->
+
+	    </div>
+
+    </nav><!-- /.Navbar -->
+
+
+   	<div class="container-fluid main-dashboard">
+
+      <div class="row">
+
+        <div class="col-sm-3 col-md-2 sidebar">
+
+          <ul class="nav nav-sidebar">
+            <li><a href="allCompanies.html">All companies</a></li>
+            <li class="active"><a href="#">Add new company<span class="sr-only">(current)</span></a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <div class="company-name">
+            <h2>ADD NEW COMPANY</h2>
+          </div>
+
+          <div class="card card-block add-form">
+            
+            <form>
+
+              <div class="form-group">
+                <input type="name" class="form-control" id="name" placeholder="Company name" autofocus="">
+              </div>
+
+              <div class="form-group">
+                <textarea class="form-control" id="description" placeholder="Description" cols="3"></textarea>
+              </div>
+
+              <div class="fileinput fileinput-new" data-provides="fileinput">
+                <div><label>Company Logo</label></div>
+                <div class="fileinput-new thumbnail" style="width: 100px; height: 100px;">
+                  <img src="assets/img/placeholder" alt="logo">
+                </div>
+                <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+                <div class="">
+                  <span class="btn btn-default btn-sm btn-file active"><span class="fileinput-new">Upload photo</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+                  <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+                </div>
+              </div>
+
+              <div><button type="submit" class="btn btn-danger btn-raised">Submit</button></div>
+
+            </form>
+
+          </div>
+
+          <div class="card card-block pending-div">
+
+            <div class="pending">
+
+              <h4>Pending approval</h4>
+              
+              <div class="list">
+            
+                <ul>
+
+                  <li>
+                    
+                    <div class="col-md-12 card card-block list-item">
+                      
+                      <div class="col-md-2">
+
+                        <div class="profile">
+                          <h3><img src="assets/img/placeholder" class="img-responsive dp" alt="company logo"></h3>
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-10">
+                        
+                        <h3>Company Name</h3>
+
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        </p>
+
+                        <p>
+                          <a href="manageCompany.html"><button class="btn btn-success btn-sm">approve</button></a>
+                          <a href=""><button class="btn btn-danger btn-sm">Delete</button></a>
+                        </p>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                  <li>
+                    
+                    <div class="col-md-12 card card-block list-item">
+                      
+                      <div class="col-md-2">
+
+                        <div class="profile">
+                          <h3><img src="assets/img/placeholder" class="img-responsive dp" alt="company logo"></h3>
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-10">
+                        
+                        <h3>Company Name</h3>
+
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        </p>
+
+                        <p>
+                          <a href="manageCompany.html"><button class="btn btn-success btn-sm">approve</button></a>
+                          <a href=""><button class="btn btn-danger btn-sm">Delete</button></a>
+                        </p>
+
+                      </div>
+
+                    </div>
+
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-1"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Matrial JavaScript -->
+    <script type="text/javascript" src="assets/js/material.min.js"></script>
+
+    <!-- Fileinput JS -->
+    <script src="assets/js/fileinput.js"></script>
+
+
+</body>
+</html>
