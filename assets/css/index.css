@@ -139,34 +139,29 @@ a.btn-hero-image {
     margin-top: 95px;
 }
 
-a.btn-hero-image i
-{
+a.btn-hero-image i {
     padding-left: 10px;
 }
 
-a.btn-hero-image:hover, a.btn-hero-image:focus
-{
+a.btn-hero-image:hover, a.btn-hero-image:focus {
     background-color: #0ac2b5;
     color: #fff;
     border-color: #0ac2b5;
     display: inline-block;
 }
 
-.bold
-{
+.bold {
     font-weight: bold;
 }
 
-.bor-btm
-{
+.bor-btm {
     width: 100px;
     height: 1px;
     background-color: #ddd;
     margin-bottom: 85px;
 }
 
-.jumbotron h1.small
-{
+.jumbotron h1.small {
     line-height: 88px;
     border-width: 0px;
     margin: 0px;
@@ -188,23 +183,19 @@ a.btn-hero-image:hover, a.btn-hero-image:focus
     padding-left: 0px;
 }
 
-.bgblue-dark
-{
+.bgblue-dark {
     background-color: #2C3E50;
 }
 
-.bgblue-light
-{
+.bgblue-light {
     background-color: #3498DB;
 }
 
-.bgred
-{
+.bgred {
     background-color: #E74C3C;
 }
 
-.wrk-title
-{
+.wrk-title {
     cursor: pointer;
 }
 
@@ -213,8 +204,7 @@ a.btn-hero-image:hover, a.btn-hero-image:focus
 	padding-right: 90px;
 }
 
-.cta-1, .cta2
-{
+.cta-1, .cta2 {
 	background-color: #009688;
 	padding: 60px 0px;
 }
@@ -232,8 +222,7 @@ h1.cta-title {
     color: #fff !important;
 }
 
-.pg-titl-bdr-btm
-{
+.pg-titl-bdr-btm {
 	width: 100px;
 	height: 3px;
 	background-color: #009688;
@@ -281,18 +270,15 @@ h1.cta-title {
     transition: all 0.5s ease 0s;
 }
 
-.page-title
-{
+.page-title {
 	margin-bottom: 40px;
 }
 
-.cta2 a
-{
+.cta2 a {
 margin-top: 5px;
 }
 
-.fnt-24
-{
+.fnt-24 {
 	font-size: 24px;
 }
 
@@ -435,8 +421,7 @@ margin-top: 5px;
 }
 
 
-.cta2 .btn-default,.cta2 .btn-default:hover,.cta2 .btn-default:focus
-{
+.cta2 .btn-default,.cta2 .btn-default:hover,.cta2 .btn-default:focus {
     padding: 10px 25px;
     background-color: #fff;
     border: 0px;
@@ -582,12 +567,12 @@ p.cta-sub-title {
     padding-top: 15px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a{
-    text-align: center;
+    text-align: left;
 }
 }
 @media (min-width: 300px) and (max-width: 768px) {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a{
-    text-align: center;
+    text-align: left;
     border: 0px;
 }
 .navbar-default .navbar-nav > li > a:hover
