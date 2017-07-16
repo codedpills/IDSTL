@@ -271,3 +271,16 @@
 .input-group-addon:not(:first-child) {
   border-left: 0;
 }
+
+.departments {
+  margin-top: 20px;
+}
+
+.card-department {
+  padding-top: 20px;
+}
+
+.shared-with {
+  padding-top: 200px;
+  margin-bottom: 20px;
+}

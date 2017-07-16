@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>All members</title>
+    <title>Add New Department</title>
 
     <!-- Material Design Icons -->
     <link rel="stylesheet" href="assets/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
@@ -60,9 +60,11 @@
         <div class="col-sm-3 col-md-2 sidebar">
 
           <ul class="nav nav-sidebar">
-            <li><a href="companyAdminDashboard.html">Main feed</a></li>
-            <li class="active"><a href="#">All members<span class="sr-only">(current)</span></a></li>
-            <li><a href="addMember.html">Add new member</a></li>
+            <li><a href="allCompanies.html">All Companies</a></li>
+            <li><a href="addCompany.html">Add New Company</a></li>
+            <li><a href="departments.html">All Departments</a></li>
+            <li class="active"><a href="#">Add New Department<span class="sr-only">(current)</span></a></li>
+            <li><a href="assignUser.html">Assign User Department</a></li>
           </ul>
 
         </div>
@@ -70,65 +72,26 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
           <div class="company-name">
-            <h2>LIST OF ALL MEMBER ACCOUNTS</h2>
+            <h2>ADD NEW DEPARTMENT</h2>
           </div>
 
-          <div class="card card-block add-form">
+          <div class="card card-block add-form departments">
             
-            <table class="table table-striped table-hover">
+            <form>
 
-              <thead>  
-                <th>#</th>
-                <th>Username</th>
-                <th>Password</th>
-                <th>Action</th>
-              </thead>
+              <div class="form-group">
+                <input type="name" class="form-control" id="department" placeholder="Department Name" autofocus="">
+              </div>
 
-              <tbody> 
+              <div class="form-group">
+                <textarea cols="3" class="form-control" placeholder="Description"></textarea>
+              </div>
 
-                <tr>
-                  <td>1</td>
-                  <td>Something</td>
-                  <td>Password123</td>
-                  <td>
-                    <button class="btn btn-primary btn-xs btn-raised">edit</button>
-                    <button class="btn btn-danger btn-xs btn-raised">remove</button>
-                  </td>
-                </tr>
+              <div>
+                <button type="submit" class="btn btn-danger btn-raised">Add Department</button>
+              </div>
 
-                <tr>
-                  <td>2</td>
-                  <td>Somebody</td>
-                  <td>Password223</td>
-                  <td>
-                    <button class="btn btn-primary btn-xs btn-raised">edit</button>
-                    <button class="btn btn-danger btn-xs btn-raised">remove</button>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>3</td>
-                  <td>Somebody</td>
-                  <td>Password223</td>
-                  <td>
-                    <button class="btn btn-primary btn-xs btn-raised">edit</button>
-                    <button class="btn btn-danger btn-xs btn-raised">remove</button>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>4</td>
-                  <td>Somebody</td>
-                  <td>Password223</td>
-                  <td>
-                    <button class="btn btn-primary btn-xs btn-raised">edit</button>
-                    <button class="btn btn-danger btn-xs btn-raised">remove</button>
-                  </td>
-                </tr>
-
-              </tbody>
-
-            </table>
+            </form>
 
           </div>
 

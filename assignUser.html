@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Assign User Departments</title>
+
+    <!-- Material Design Icons -->
+    <link rel="stylesheet" href="assets/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="assets/css/bootstrap-material-design.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-fixed-top">
+
+	    <div class="container">
+
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="index.html"><strong>IDSTL</strong></a>
+	        </div>
+
+	        <div id="navbar" class="navbar-collapse collapse">
+
+		        <ul class="nav navbar-nav navbar-right index-nav">
+		            <li><a href="index.html">Home</a></li>
+                <li><a href="">Logout</a></li>
+		        </ul>
+
+	        </div><!-- /.nav-collapse -->
+
+	    </div>
+
+    </nav><!-- /.Navbar -->
+
+
+   	<div class="container-fluid main-dashboard">
+
+      <div class="row">
+
+        <div class="col-sm-3 col-md-2 sidebar">
+
+          <ul class="nav nav-sidebar">
+            <li><a href="allCompanies.html">All Companies</a></li>
+            <li><a href="addCompany.html">Add New Company</a></li>
+            <li><a href="departments.html">All Departments</a></li>
+            <li><a href="newDepartment.html">Add New Department</a></li>
+            <li class="active"><a href="#">Assign User Department<span class="sr-only">(current)</span></a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+          <div class="company-name">
+            <h2>ASSIGN USER DEPARTMENT</h2>
+          </div>
+    
+
+          <div class="col-md-12">
+
+            <div class="searchbar">
+              <form class="form-inline">
+                <div class="form-group">
+                  <label class="sr-only" for="search">search</label>
+                  <div class="input-group">
+                    <div class="input-group-addon"><span class="mdi mdi-magnify"></span></div>
+                    <input type="text" class="form-control" id="searcht" placeholder="seach user by username">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-default active">search</button>
+              </form>
+            </div>
+
+            
+            <div class="departments">
+
+              <div class="card card-block add-form card-department">
+            
+                <table class="table table-striped table-hover">
+
+                  <thead>  
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Current Department</th>
+                    <th>Action</th>
+                  </thead>
+
+                  <tbody> 
+
+                    <tr>
+                      <td>1</td>
+                      <td>Sherlock</td>
+                      <td>--None</td>
+                      <td>
+                        <button class="btn btn-danger btn-raised" type="button" data-toggle="collapse" data-target="#1" aria-expanded="false" aria-controls="collapseExample">
+                          Assign department
+                        </button>
+
+                        <div class="collapse" id="1">
+                          <div class="well">
+
+                            <div class="checkbox">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                  Finance
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                  Audit
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                                  PR
+                              </label>
+                            </div>
+
+                            <button class="btn btn-info btn-raised btn-xs">save</button>
+
+                          </div>
+                        </div>
+
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>2</td>
+                      <td>Jon Snow</td>
+                      <td>--None</td>
+                      <td>
+                        <button class="btn btn-danger btn-raised" type="button" data-toggle="collapse" data-target="#2" aria-expanded="false" aria-controls="collapse2">
+                          Assign department
+                        </button>
+
+                        <div class="collapse" id="2">
+                          <div class="well">
+
+                            <div class="checkbox">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                  Finance
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                  Audit
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                                  PR
+                              </label>
+                            </div>
+
+                            <button class="btn btn-info btn-raised btn-xs">save</button>
+
+                          </div>
+                        </div>
+
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>3</td>
+                      <td>Jack Sparrow</td>
+                      <td>Finance</td>
+                      <td>
+                        <button class="btn btn-danger btn-raised" type="button" data-toggle="collapse" data-target="#3" aria-expanded="false" aria-controls="collapseExample">
+                          Assign department
+                        </button>
+
+                        <div class="collapse" id="3">
+                          <div class="well">
+
+                            <div class="checkbox">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                  Finance
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                  Audit
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                                  PR
+                              </label>
+                            </div>
+
+                            <button class="btn btn-info btn-raised btn-xs">save</button>
+
+                          </div>
+                        </div>
+
+                      </td>
+                    </tr>
+
+                  </tbody>
+
+                </table>
+
+              </div>
+
+            </div>
+
+
+            <!-- Pager -->
+            <nav aria-label="pager" id="pager">
+              <ul class="pager">
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">Next</a></li>
+              </ul>
+            </nav>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Matrial JavaScript -->
+    <script type="text/javascript" src="assets/js/material.min.js"></script>
+
+
+</body>
+</html>
